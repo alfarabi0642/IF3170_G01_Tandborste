@@ -1,0 +1,61 @@
+{
+  "truck": {
+    "id": "MejiroTruck-01",
+    "dimensions": {
+      "w": 10,
+      "l": 20,
+      "h": 5
+    },
+    "max_capacity": 100
+  },
+  "packages": [
+    {
+      "id": "PKG-01",
+      "dimensions": {"w": 3, "l": 4, "h": 1},
+      "value": 60,
+      "weight": 12,
+      "is_fragile": false,
+      "eta": 3
+    },
+    {
+      "id": "PKG-02",
+      "dimensions": {"w": 4, "l": 5, "h": 2},
+      "value": 110,
+      "weight": 25,
+      "is_fragile": true,
+      "eta": 2
+    },
+    {
+      "id": "PKG-03",
+      "dimensions": {"w": 2, "l": 3, "h": 2},
+      "value": 45,
+      "weight": 8,
+      "is_fragile": false,
+      "eta": 5
+    },
+    {
+      "id": "PKG-04",
+      "dimensions": {"w": 5, "l": 6, "h": 2},
+      "value": 150,
+      "weight": 35,
+      "is_fragile": false,
+      "eta": 1
+    },
+    {
+      "id": "PKG-05",
+      "dimensions": {"w": 3, "l": 3, "h": 3},
+      "value": 80,
+      "weight": 18,
+      "is_fragile": true,
+      "eta": 4
+    },
+    {
+      "id": "PKG-06",
+      "dimensions": {"w": 2, "l": 4, "h": 1},
+      "value": 40,
+      "weight": 10,
+      "is_fragile": false,
+      "eta": 2
+    }
+  ]
+}
