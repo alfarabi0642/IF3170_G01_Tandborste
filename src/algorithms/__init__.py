@@ -6,6 +6,8 @@ from .hill_climbing import (
     stochastic_hill_climbing,
     random_restart_hill_climbing,
 )
+from .simulated_annealing import simulated_annealing
+from .genetic_algorithm import genetic_algorithm
 
 __all__ = [
     "SearchResult",
@@ -13,4 +15,6 @@ __all__ = [
     "hill_climbing_sideways_move",
     "stochastic_hill_climbing",
     "random_restart_hill_climbing",
+    "simulated_annealing",
+    "genetic_algorithm",
 ]
