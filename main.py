@@ -4,15 +4,14 @@ import time
 from pathlib import Path
 
 from src.utils.io_handler import load_input, save_run_result
-from src.utils.experiment_runner import (
-    run_single_search,
-    run_experiment,
-    run_ga_parameter_study,
-    ALGORITHM_MAP,
-)
+from src.utils.search_runner import run_single_search, ALGORITHM_MAP
 from src.core.objectives import default_objective, bonus_urgency_volume_objective
-from src.visualization.plot3d import visualize_comparison_3d, visualize_state_3d
-from src.visualization.metrics import plot_objective_history, plot_sa_acceptance
+from src.visualization.plot3d import visualize_comparison_3d
+from src.visualization.metrics import (
+    plot_objective_history,
+    plot_sa_acceptance,
+    plot_ga_fitness,
+)
 
 #fungsi untuk mem-parsing argumen baris perintah (CLI) dan menjalankan program utama
 def parse_args(args=None):
@@ -46,7 +45,7 @@ def parse_args(args=None):
         "--seed",
         type=int,
         default=None,
-        help="Seed bilangan acak untuk menjamin keterulangan (reproducibility) eksperimen",
+        help="Seed bilangan acak untuk mengulang hasil pencarian",
     )
 
     
@@ -129,46 +128,6 @@ def parse_args(args=None):
         help="Jumlah generasi iterasi untuk Genetic Algorithm (default: 50)",
     )
 
-    # -------------------------------------------------------------------------
-    # 4. Mode Eksperimen & Otomatisasi Batch
-    # -------------------------------------------------------------------------
-    parser.add_argument(
-        "--experiment",
-        action="store_true",
-        help="Menjalankan mode batch eksperimen berulang (default 3 kali run independen)",
-    )
-    parser.add_argument(
-        "--runs",
-        type=int,
-        default=3,
-        help="Jumlah pengujian independen dalam mode eksperimen (default: 3)",
-    )
-    parser.add_argument(
-        "--ga-study",
-        action="store_true",
-        help="Menjalankan matriks pengujian lengkap GA (variasi populasi & iterasi)",
-    )
-    parser.add_argument(
-        "--ga-iters",
-        type=int,
-        nargs="+",
-        default=[20, 50, 100],
-        help="Daftar variasi jumlah generasi/iterasi untuk GA study (default: 20 50 100)",
-    )
-    parser.add_argument(
-        "--ga-pops",
-        type=int,
-        nargs="+",
-        default=[15, 30, 60],
-        help="Daftar variasi ukuran populasi untuk GA study (default: 15 30 60)",
-    )
-    parser.add_argument(
-        "--ga-reps",
-        type=int,
-        default=3,
-        help="Jumlah pengulangan/repetisi per variasi parameter pada GA study (default: 3)",
-    )
-
     # Konfigurasi Output & Visualisasi
     parser.add_argument(
         "-o", "--output-dir",
@@ -179,7 +138,7 @@ def parse_args(args=None):
     parser.add_argument(
         "--plot",
         action="store_true",
-        help="Membuka visualisasi 3D interaktif di browser setelah pencarian selesai",
+        help="Membuka visualisasi di browser setelah pencarian selesai",
     )
     parser.add_argument(
         "--save-plot",
@@ -231,63 +190,7 @@ def main(cli_args=None):
     out_dir.mkdir(parents=True, exist_ok=True)
     ts = time.strftime("%Y%m%d_%H%M%S")
 
-    # eksekusi langsung GA 18 kali, untuk spek
-    if args.ga_study:
-        try:
-            run_ga_parameter_study(
-                truck=truck,
-                packages=packages,
-                output_dir=out_dir,
-                save_plots=args.save_metrics,
-                objective_fn=obj_fn,
-                study_reps=args.ga_reps,
-                iteration_settings=args.ga_iters,
-                fixed_population=args.pop_size,
-                population_settings=args.ga_pops,
-                fixed_iterations=args.generations,
-            )
-            return 0
-        except NotImplementedError as e:
-            print(f"[Info] {e}", file=sys.stderr)
-            return 1
-
-    # Mode 3x run independen untuk eksperimen
-    if args.experiment:
-        print(f"=== Menjalankan Eksperimen: {args.algo} ({args.runs} runs) ===")
-        print(f"Kasus Uji: {args.input} | Objektif: {args.objective}")
-
-        try:
-            exp_data = run_experiment(
-                algo_name=args.algo,
-                truck=truck,
-                packages=packages,
-                num_runs=args.runs,
-                objective_fn=obj_fn,
-                output_dir=out_dir,
-                save_plots=args.save_metrics,
-                **algo_params,
-            )
-        except NotImplementedError as e:
-            print(f"[Info] {e}", file=sys.stderr)
-            return 1
-
-        # output tabel ringkasan performa 
-        summary = exp_data["summary"]
-        print("\n--- Ringkasan Hasil Eksperimen ---")
-        print(f"Algoritma          : {summary['algorithm']}")
-        print(f"Total Pengujian    : {summary['total_runs']} runs")
-        print(f"Skor per Run       : {summary['scores']}")
-        print(f"Skor Rata-rata     : {summary['mean_score']:.2f}")
-        print(f"Skor Terbaik       : {summary['best_score']:.2f}")
-        print(f"Standar Deviasi    : {summary['std_score']:.2f}")
-        print(f"Durasi Rata-rata   : {summary['mean_duration_seconds']:.4f} detik")
-        print(f"Iterasi Rata-rata  : {summary['mean_iterations']:.1f}")
-        if "plot_saved" in summary:
-            print(f"Grafik Konvergensi : {summary['plot_saved']}")
-        print(f"Hasil JSON lengkap tersimpan di folder: {out_dir}")
-        return 0
-
-    # mode single run
+    # jalankan satu pencarian
     print(f"=== Menjalankan Pencarian: {args.algo} ===")
     print(f"Kasus Uji: {args.input} | Objektif: {args.objective} | Seed: {args.seed}")
 
@@ -324,15 +227,24 @@ def main(cli_args=None):
     )
     print(f"\nHasil pencarian disimpan ke: {json_path}")
 
-    # buat hasil grafik konvergensi jika diminta
+    # simpan grafik dari hasil pencarian
     if args.save_metrics:
         plot_path = out_dir / f"{args.algo}_{ts}_convergence.png"
-        plot_objective_history(
-            results=result,
-            title=f"Konvergensi {result.algorithm_name}",
-            save_path=plot_path,
-            show=False,
-        )
+        if ALGORITHM_MAP[args.algo] == "genetic_algorithm":
+            plot_ga_fitness(
+                max_fitness=result.extra_metrics["max_fitness_history"],
+                avg_fitness=result.extra_metrics["avg_fitness_history"],
+                title=f"Konvergensi {result.algorithm_name}",
+                save_path=plot_path,
+                show=False,
+            )
+        else:
+            plot_objective_history(
+                result=result,
+                title=f"Konvergensi {result.algorithm_name}",
+                save_path=plot_path,
+                show=False,
+            )
         print(f"Grafik konvergensi disimpan ke: {plot_path}")
 
         # untuk SA, buat juga grafik probabilitas exp(delta E / T)
@@ -357,7 +269,7 @@ def main(cli_args=None):
             save_path=plot_3d_path,
         )
         if plot_3d_path:
-            print(f"Visualisasi 3D interaktif disimpan ke: {plot_3d_path}")
+            print(f"Visualisasi disimpan ke: {plot_3d_path}")
 
     return 0
 

@@ -7,42 +7,24 @@ import matplotlib.pyplot as plt
 
 from src.algorithms.base import SearchResult
 
-# warna buat matplotlib
-RUN_COLORS = ["royalblue", "crimson", "forestgreen", "darkorange", "purple", "teal"]
-
-# fungsi untuk memvisualisasikan kurva konvergensi nilai objektif vs iterasi
+# fungsi untuk menampilkan grafik nilai objektif dari satu pencarian
 # x = iterasi, y = nilai objektif (total value muatan atau bonus objective)
 def plot_objective_history(
-    results: Union[SearchResult, List[SearchResult]],
+    result: SearchResult,
     title: str = "Konvergensi Nilai Objektif vs Banyak Iterasi",
     save_path: Optional[Union[str, Path]] = None,
     show: bool = False,
 ) -> plt.Figure:
 
-    # buat ke dalam list jika input berupa objek SearchResult tunggal
-    if isinstance(results, SearchResult):
-        results = [results]
+    scores = result.score_history
+    if result.iteration_history and len(result.iteration_history) == len(scores):
+        iters = result.iteration_history
+    else:
+        iters = list(range(len(scores)))
 
     fig, ax = plt.subplots(figsize=(8, 5))
-
-    # Loop setiap hasil pengujian dan plot kurvanya
-    for idx, res in enumerate(results):
-        scores = res.score_history
-        
-        # Sinkronisasi sumbu X, gunakan iteration_history jika ada, atau buat range indeks
-        if res.iteration_history and len(res.iteration_history) == len(scores):
-            iters = res.iteration_history
-        else:
-            iters = list(range(len(scores)))
-
-        # color picker
-        color = RUN_COLORS[idx % len(RUN_COLORS)]
-        label = (
-            f"Run {idx + 1} (Akhir: {res.final_score:.1f}, {res.iterations} iter)"
-            if len(results) > 1
-            else f"{res.algorithm_name} (Akhir: {res.final_score:.1f})"
-        )
-        ax.plot(iters, scores, label=label, color=color, linewidth=1.8)
+    label = f"{result.algorithm_name} (Akhir: {result.final_score:.1f})"
+    ax.plot(iters, scores, label=label, color="royalblue", linewidth=1.8)
 
     # konfig tata letak dan anotasi grafik
     ax.set_title(title, fontsize=12, fontweight="bold", pad=12)
