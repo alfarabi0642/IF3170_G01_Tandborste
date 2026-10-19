@@ -8,12 +8,6 @@ __pycache__/
 venv/
 ENV/
 
-# Testing caches
-.pytest_cache/
-.coverage
-htmlcov/
-tests/
-
 # IDE files
 .vscode/
 .idea/

@@ -77,9 +77,8 @@ class State:
             "packages": [p.to_dict() for p in self.packages],
         }
 
-    # =========================================================================
+
     # GENERATOR INITIAL STATE RANDOM
-    # =========================================================================
     @classmethod
     def create_random_state(
         cls,
@@ -132,9 +131,7 @@ class State:
         return state
 
 
-# =============================================================================
 # HELPER: CANDIDATE ANCHOR POSITIONS (HEURISTIK TITIK TUMPUAN)
-# =============================================================================
 def _get_candidate_anchors(state: State) -> List[Tuple[int, int, int]]:
     """
     Menghasilkan kandidat koordinat penempatan yang berpotensi valid:
@@ -169,13 +166,10 @@ def _get_candidate_anchors(state: State) -> List[Tuple[int, int, int]]:
     return list(set(anchors))
 
 
-# =============================================================================
-# OPERATOR TETANGGA (NEIGHBOR OPERATORS)
-# Sesuai spesifikasi:
+# NEIGHBOR OPERATORS
 # 1. Menukar dua paket, baik di dalam maupun di luar truk (Swap)
 # 2. Memindahkan sebuah paket ke koordinat yang berbeda (Move)
 # 3. Merotasi paket 90 derajat terhadap sumbu x, y, atau z (Rotate)
-# =============================================================================
 
 def neighbor_move(state: State) -> Optional[State]:
     """
