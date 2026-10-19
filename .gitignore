@@ -12,8 +12,11 @@ ENV/
 .pytest_cache/
 .coverage
 htmlcov/
+tests/
 
 # IDE files
 .vscode/
 .idea/
 *.swp
+
+
