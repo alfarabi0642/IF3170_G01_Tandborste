@@ -229,7 +229,7 @@ def visualize_state_3d(
         f"Dimuat: {len(state.loaded_packages)}/{len(state.packages)} paket"
     )
 
-    # konfig tata letak scene 3D Plotly 
+    # konfig scene 3D Plotly 
     fig.update_layout(
         title=dict(text=f"<b>{title}</b><br><sup>{subtitle}</sup>", x=0.5),
         scene=dict(

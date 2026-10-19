@@ -269,7 +269,7 @@ def run_ga_parameter_study(
     out_folder.mkdir(parents=True, exist_ok=True)
 
     print(f"\n========================================================")
-    print(f"  MEMULAI EKSPERIMEN GA: 18-RUN PARAMETER STUDY MATRIX")
+    print(f"  GA ")
     print(f"========================================================")
 
     # Studi 1, populasi konstan, 9 runs

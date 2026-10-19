@@ -14,20 +14,14 @@ from src.core.objectives import default_objective, bonus_urgency_volume_objectiv
 from src.visualization.plot3d import visualize_comparison_3d, visualize_state_3d
 from src.visualization.metrics import plot_objective_history, plot_sa_acceptance
 
-
+#fungsi untuk mem-parsing argumen baris perintah (CLI) dan menjalankan program utama
 def parse_args(args=None):
-    """
-    Menyusun dan mem-parsing parameter Command Line Interface (CLI) aplikasi.
-    Mendukung konfigurasi kasus uji, algoritma, parameter pencarian,
-    mode eksperimen otomatis, serta opsi visualisasi.
-    """
+
     parser = argparse.ArgumentParser(
         description="Mejiro Express: 3D Container Loading Problem Solver (Local Search Suite)"
     )
 
-    # -------------------------------------------------------------------------
-    # 1. Konfigurasi Input Data & Algoritma
-    # -------------------------------------------------------------------------
+    #Konfig input dan algoritma
     parser.add_argument(
         "-i", "--input",
         type=str,
@@ -55,9 +49,8 @@ def parse_args(args=None):
         help="Seed bilangan acak untuk menjamin keterulangan (reproducibility) eksperimen",
     )
 
-    # -------------------------------------------------------------------------
-    # 2. Parameter Hill-Climbing Suite (Driver 1)
-    # -------------------------------------------------------------------------
+    
+    # Parameter Hill-Climbing 
     parser.add_argument(
         "--max-iterations", "--max-iter",
         dest="max_iterations",
@@ -91,9 +84,8 @@ def parse_args(args=None):
         help="Iterasi per restart untuk Random Restart HC (default: 100)",
     )
 
-    # -------------------------------------------------------------------------
-    # 3. Parameter Simulated Annealing & Genetic Algorithm (Driver 2)
-    # -------------------------------------------------------------------------
+    
+    # Parameter Simulated Annealing & Genetic Algorithm 
     parser.add_argument(
         "--t0",
         type=float,
@@ -177,9 +169,7 @@ def parse_args(args=None):
         help="Jumlah pengulangan/repetisi per variasi parameter pada GA study (default: 3)",
     )
 
-    # -------------------------------------------------------------------------
-    # 5. Konfigurasi Output & Visualisasi
-    # -------------------------------------------------------------------------
+    # Konfigurasi Output & Visualisasi
     parser.add_argument(
         "-o", "--output-dir",
         type=str,
@@ -204,13 +194,9 @@ def parse_args(args=None):
 
     return parser.parse_args(args)
 
-
+# fungsi utama program (CLI Entry Point), mengorkestrasi input file, eksekusi search engine, pelaporan hasil terminal, penyimpanan file log JSON, serta pembuatan visualisasi 3D dan grafik metrik
 def main(cli_args=None):
-    """
-    Fungsi utama program (CLI Entry Point).
-    Mengorkestrasi input file, eksekusi search engine, pelaporan hasil terminal,
-    penyimpanan file log JSON, serta pembuatan visualisasi 3D dan grafik metrik.
-    """
+
     # 1. Parsing argumen baris perintah
     args = parse_args(cli_args)
 
