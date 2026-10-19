@@ -18,3 +18,5 @@ tests/
 .vscode/
 .idea/
 *.swp
+
+output/
