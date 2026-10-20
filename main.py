@@ -1,6 +1,6 @@
 import argparse
 import sys
-import time
+from datetime import datetime
 from pathlib import Path
 
 from src.utils.io_handler import load_input, save_run_result
@@ -133,7 +133,7 @@ def parse_args(args=None):
         "-o", "--output-dir",
         type=str,
         default="output",
-        help="Direktori penyimpanan file JSON hasil eksekusi dan grafik (default: output)",
+        help="Direktori induk subfolder setiap run, berisi JSON dan grafik (default: output)",
     )
     parser.add_argument(
         "--plot",
@@ -185,10 +185,10 @@ def main(cli_args=None):
         "generations": args.generations,
     }
 
-    # Buat direktori output jika belum ada
-    out_dir = Path(args.output_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    ts = time.strftime("%Y%m%d_%H%M%S")
+    # Kumpulkan seluruh hasil satu run dalam subfolder tersendiri
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    out_dir = Path(args.output_dir) / f"{args.algo}_{ts}"
+    out_dir.mkdir(parents=True, exist_ok=False)
 
     # jalankan satu pencarian
     print(f"=== Menjalankan Pencarian: {args.algo} ===")
