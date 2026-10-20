@@ -1,0 +1,1171 @@
+{
+  "algorithm": "Steepest Ascent Hill-Climbing",
+  "duration_seconds": 0.0438,
+  "iterations": 1,
+  "initial_score": 1695.0,
+  "final_score": 1695.0,
+  "loaded_packages_count": 15,
+  "unloaded_packages_count": 9,
+  "total_loaded_weight": 399.0,
+  "truck_capacity": 400.0,
+  "score_history": [
+    1695.0,
+    1695.0
+  ],
+  "iteration_history": [
+    0,
+    1
+  ],
+  "extra_metrics": {
+    "termination_reason": "local_optimum"
+  },
+  "initial_state": {
+    "truck": {
+      "id": "MejiroTruck-Medium",
+      "dimensions": {
+        "w": 20,
+        "l": 40,
+        "h": 10
+      },
+      "max_capacity": 400.0
+    },
+    "score": 1695.0,
+    "is_valid": true,
+    "total_weight": 399.0,
+    "loaded_count": 15,
+    "unloaded_count": 9,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 5
+        },
+        "value": 90.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 5
+        },
+        "value": 140.0,
+        "weight": 35.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 11,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 4
+        },
+        "value": 65.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 32,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "value": 210.0,
+        "weight": 50.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "value": 115.0,
+        "weight": 28.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 5,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "value": 100.0,
+        "weight": 25.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 7,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-07",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 6
+        },
+        "value": 75.0,
+        "weight": 18.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 19,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-08",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 7
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 35,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-09",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 70.0,
+        "weight": 15.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 32,
+          "z": 4
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-10",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 5,
+          "h": 6
+        },
+        "value": 190.0,
+        "weight": 48.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 12,
+          "y": 18,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-11",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 2,
+          "h": 4
+        },
+        "value": 85.0,
+        "weight": 20.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-12",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 7
+        },
+        "value": 175.0,
+        "weight": 42.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-13",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 3
+        },
+        "value": 80.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-14",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 6
+        },
+        "value": 120.0,
+        "weight": 27.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 12,
+          "y": 32,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-15",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "value": 135.0,
+        "weight": 32.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-16",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 3
+        },
+        "value": 60.0,
+        "weight": 13.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 0,
+          "z": 3
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-17",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "value": 165.0,
+        "weight": 38.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-18",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 4
+        },
+        "value": 95.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-19",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 6
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 16,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-20",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 6
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-21",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-22",
+        "dimensions": {
+          "w": 5,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 4,
+          "h": 5
+        },
+        "value": 200.0,
+        "weight": 46.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-23",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "value": 50.0,
+        "weight": 11.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-24",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 4,
+          "h": 4
+        },
+        "value": 155.0,
+        "weight": 36.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 12,
+          "z": 0
+        },
+        "orientation_idx": 3
+      }
+    ]
+  },
+  "final_state": {
+    "truck": {
+      "id": "MejiroTruck-Medium",
+      "dimensions": {
+        "w": 20,
+        "l": 40,
+        "h": 10
+      },
+      "max_capacity": 400.0
+    },
+    "score": 1695.0,
+    "is_valid": true,
+    "total_weight": 399.0,
+    "loaded_count": 15,
+    "unloaded_count": 9,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 5
+        },
+        "value": 90.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 5
+        },
+        "value": 140.0,
+        "weight": 35.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 11,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 4
+        },
+        "value": 65.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 32,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "value": 210.0,
+        "weight": 50.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "value": 115.0,
+        "weight": 28.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 5,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "value": 100.0,
+        "weight": 25.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 7,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-07",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 6
+        },
+        "value": 75.0,
+        "weight": 18.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 19,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-08",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 7
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 35,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-09",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 70.0,
+        "weight": 15.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 32,
+          "z": 4
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-10",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 5,
+          "h": 6
+        },
+        "value": 190.0,
+        "weight": 48.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 12,
+          "y": 18,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-11",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 2,
+          "h": 4
+        },
+        "value": 85.0,
+        "weight": 20.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-12",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 7
+        },
+        "value": 175.0,
+        "weight": 42.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-13",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 3
+        },
+        "value": 80.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-14",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 6
+        },
+        "value": 120.0,
+        "weight": 27.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 12,
+          "y": 32,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-15",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "value": 135.0,
+        "weight": 32.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-16",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 3
+        },
+        "value": 60.0,
+        "weight": 13.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 0,
+          "z": 3
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-17",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "value": 165.0,
+        "weight": 38.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-18",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 4
+        },
+        "value": 95.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-19",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 6
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 16,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-20",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 6
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-21",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-22",
+        "dimensions": {
+          "w": 5,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 4,
+          "h": 5
+        },
+        "value": 200.0,
+        "weight": 46.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-23",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "value": 50.0,
+        "weight": 11.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-24",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 4,
+          "h": 4
+        },
+        "value": 155.0,
+        "weight": 36.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 12,
+          "z": 0
+        },
+        "orientation_idx": 3
+      }
+    ]
+  },
+  "duration_seconds_unrounded": 0.0438389778137207,
+  "score_history_unrounded": [
+    1695.0,
+    1695.0
+  ],
+  "configuration": {
+    "run_id": "M-HC-ST-01",
+    "algo": "steepest",
+    "seed": 1,
+    "parameters": {
+      "max_iterations": 300,
+      "sample_neighbors": 25
+    },
+    "study": "HC",
+    "base_run_id": "HC-ST-01",
+    "dataset": "medium",
+    "run_dir": "medium/M-HC-ST-01"
+  },
+  "input_file": "test_cases/medium.json",
+  "objective": "default",
+  "dataset_sha256": "01032da6159a742a6545ab580bb0bcc321f5bfda0bbce46bd4a28f6daf02f8a1",
+  "execution_time_utc": "2026-10-19T16:16:14.777246+00:00",
+  "source_configuration": {
+    "run_id": "HC-ST-01",
+    "algo": "steepest",
+    "seed": 1,
+    "parameters": {
+      "max_iterations": 300,
+      "sample_neighbors": 25
+    },
+    "study": "HC"
+  },
+  "reused_from": "output\\laporan_experiments\\HC-ST-01\\result.json"
+}

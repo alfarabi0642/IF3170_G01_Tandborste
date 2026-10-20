@@ -8,12 +8,9 @@ __pycache__/
 venv/
 ENV/
 
-# Testing caches
-.pytest_cache/
-.coverage
-htmlcov/
-
 # IDE files
 .vscode/
 .idea/
 *.swp
+
+

@@ -1,0 +1,2988 @@
+{
+  "algorithm": "Genetic Algorithm",
+  "duration_seconds": 6.913,
+  "iterations": 100,
+  "initial_score": 4285.0,
+  "final_score": 4310.0,
+  "loaded_packages_count": 37,
+  "unloaded_packages_count": 11,
+  "total_loaded_weight": 999.0,
+  "truck_capacity": 1000.0,
+  "score_history": [
+    4285.0,
+    4285.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0
+  ],
+  "iteration_history": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "extra_metrics": {
+    "pop_size": 30,
+    "generations": 100,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.1,
+    "elite": 2,
+    "max_fitness_history": [
+      4285.0,
+      4285.0,
+      4290.0,
+      4290.0,
+      4290.0,
+      4290.0,
+      4290.0,
+      4295.0,
+      4295.0,
+      4295.0,
+      4295.0,
+      4295.0,
+      4295.0,
+      4300.0,
+      4300.0,
+      4300.0,
+      4300.0,
+      4300.0,
+      4300.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0,
+      4310.0
+    ],
+    "avg_fitness_history": [
+      4252.5,
+      4255.333333333333,
+      4258.0,
+      4253.166666666667,
+      4252.5,
+      4259.833333333333,
+      4257.166666666667,
+      4258.166666666667,
+      4255.333333333333,
+      4257.333333333333,
+      4258.666666666667,
+      4259.5,
+      4265.833333333333,
+      4261.0,
+      4263.833333333333,
+      4256.166666666667,
+      4268.666666666667,
+      4263.166666666667,
+      4256.333333333333,
+      4255.0,
+      4262.333333333333,
+      4257.333333333333,
+      4253.833333333333,
+      4260.666666666667,
+      4260.0,
+      4254.666666666667,
+      4255.5,
+      4266.666666666667,
+      4253.833333333333,
+      4262.666666666667,
+      4257.166666666667,
+      4264.5,
+      4254.0,
+      4259.833333333333,
+      4257.5,
+      4255.333333333333,
+      4264.5,
+      4262.0,
+      4262.166666666667,
+      4268.166666666667,
+      4263.166666666667,
+      4254.833333333333,
+      4254.5,
+      4255.666666666667,
+      4261.333333333333,
+      4255.833333333333,
+      4254.5,
+      4248.0,
+      4253.0,
+      4262.666666666667,
+      4254.833333333333,
+      4253.166666666667,
+      4252.166666666667,
+      4259.333333333333,
+      4253.833333333333,
+      4255.333333333333,
+      4256.333333333333,
+      4255.0,
+      4257.5,
+      4259.666666666667,
+      4254.833333333333,
+      4266.0,
+      4268.333333333333,
+      4267.333333333333,
+      4265.833333333333,
+      4257.666666666667,
+      4263.833333333333,
+      4267.166666666667,
+      4263.333333333333,
+      4265.0,
+      4264.5,
+      4260.333333333333,
+      4265.666666666667,
+      4259.333333333333,
+      4260.333333333333,
+      4262.833333333333,
+      4261.666666666667,
+      4259.5,
+      4257.166666666667,
+      4261.5,
+      4260.666666666667,
+      4255.5,
+      4260.5,
+      4252.0,
+      4257.333333333333,
+      4260.666666666667,
+      4260.0,
+      4256.333333333333,
+      4251.333333333333,
+      4255.0,
+      4251.0,
+      4252.666666666667,
+      4255.5,
+      4259.0,
+      4256.5,
+      4263.0,
+      4262.5,
+      4265.0,
+      4268.5,
+      4263.0,
+      4267.666666666667
+    ],
+    "best_chromosome": [
+      [
+        17,
+        3
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        39,
+        2
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        43,
+        1
+      ],
+      [
+        37,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        38,
+        5
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        25,
+        0
+      ],
+      [
+        41,
+        4
+      ],
+      [
+        40,
+        0
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        42,
+        4
+      ],
+      [
+        31,
+        2
+      ],
+      [
+        22,
+        5
+      ],
+      [
+        35,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        28,
+        1
+      ],
+      [
+        33,
+        1
+      ],
+      [
+        15,
+        4
+      ],
+      [
+        45,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        46,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        16,
+        3
+      ],
+      [
+        30,
+        4
+      ],
+      [
+        44,
+        0
+      ],
+      [
+        36,
+        1
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        32,
+        1
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        34,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        29,
+        2
+      ]
+    ]
+  },
+  "initial_state": {
+    "truck": {
+      "id": "MejiroTruck-Large",
+      "dimensions": {
+        "w": 30,
+        "l": 60,
+        "h": 15
+      },
+      "max_capacity": 1000.0
+    },
+    "score": 4285.0,
+    "is_valid": true,
+    "total_weight": 999.0,
+    "loaded_count": 34,
+    "unloaded_count": 14,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 3
+        },
+        "value": 90.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 14,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 5
+        },
+        "value": 140.0,
+        "weight": 35.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 3
+        },
+        "value": 65.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 28,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 4,
+          "h": 6
+        },
+        "value": 210.0,
+        "weight": 50.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "value": 115.0,
+        "weight": 28.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 2,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 5
+        },
+        "value": 100.0,
+        "weight": 25.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-07",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 2,
+          "h": 3
+        },
+        "value": 75.0,
+        "weight": 18.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 19,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-08",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 7
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-09",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 70.0,
+        "weight": 15.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-10",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 5,
+          "h": 6
+        },
+        "value": 190.0,
+        "weight": 48.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-11",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 4,
+          "h": 2
+        },
+        "value": 85.0,
+        "weight": 20.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-12",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 7
+        },
+        "value": 175.0,
+        "weight": 42.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-13",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 3
+        },
+        "value": 80.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 19,
+          "y": 2,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-14",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "value": 120.0,
+        "weight": 27.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-15",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "value": 135.0,
+        "weight": 32.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-16",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 3
+        },
+        "value": 60.0,
+        "weight": 13.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-17",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 6,
+          "h": 3
+        },
+        "value": 165.0,
+        "weight": 38.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 9,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-18",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 3
+        },
+        "value": 95.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 10,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-19",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 5
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 7,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-20",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 4
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 13,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-21",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 21,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-22",
+        "dimensions": {
+          "w": 5,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 5,
+          "h": 4
+        },
+        "value": 200.0,
+        "weight": 46.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 18,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-23",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 2,
+          "h": 3
+        },
+        "value": 50.0,
+        "weight": 11.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 27,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-24",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 4,
+          "h": 4
+        },
+        "value": 155.0,
+        "weight": 36.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-25",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 5
+        },
+        "value": 160.0,
+        "weight": 37.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-26",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 4,
+          "h": 2
+        },
+        "value": 95.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 8,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-27",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 3,
+          "h": 6
+        },
+        "value": 145.0,
+        "weight": 34.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 14,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-28",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 4
+        },
+        "value": 100.0,
+        "weight": 23.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-29",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 7
+        },
+        "value": 150.0,
+        "weight": 35.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 22,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-30",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 2,
+          "h": 4
+        },
+        "value": 70.0,
+        "weight": 16.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 19,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-31",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 5,
+          "h": 6
+        },
+        "value": 250.0,
+        "weight": 60.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 23,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-32",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 4
+        },
+        "value": 85.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-33",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 5,
+          "h": 2
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 17,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-34",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 5
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 9,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-35",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 6,
+          "h": 4
+        },
+        "value": 185.0,
+        "weight": 44.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 14,
+          "y": 12,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-36",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 3,
+          "h": 3
+        },
+        "value": 90.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 25,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-37",
+        "dimensions": {
+          "w": 4,
+          "l": 8,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 8
+        },
+        "value": 140.0,
+        "weight": 33.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-38",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 2,
+          "h": 5
+        },
+        "value": 80.0,
+        "weight": 18.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-39",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 4
+        },
+        "value": 170.0,
+        "weight": 40.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-40",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 5
+        },
+        "value": 60.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-41",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 4,
+          "h": 4
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": true,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 15,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-42",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 5
+        },
+        "value": 205.0,
+        "weight": 49.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 19,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-43",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 4
+        },
+        "value": 75.0,
+        "weight": 17.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 4,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-44",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 6,
+          "h": 3
+        },
+        "value": 195.0,
+        "weight": 45.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 28,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-45",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 9,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-46",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 5
+        },
+        "value": 180.0,
+        "weight": 42.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-47",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 3,
+          "h": 5
+        },
+        "value": 120.0,
+        "weight": 28.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-48",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 2,
+          "h": 7
+        },
+        "value": 100.0,
+        "weight": 23.0,
+        "is_fragile": true,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      }
+    ]
+  },
+  "final_state": {
+    "truck": {
+      "id": "MejiroTruck-Large",
+      "dimensions": {
+        "w": 30,
+        "l": 60,
+        "h": 15
+      },
+      "max_capacity": 1000.0
+    },
+    "score": 4310.0,
+    "is_valid": true,
+    "total_weight": 999.0,
+    "loaded_count": 37,
+    "unloaded_count": 11,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 4
+        },
+        "value": 90.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 5
+        },
+        "value": 140.0,
+        "weight": 35.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 2,
+          "h": 4
+        },
+        "value": 65.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 4,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 4,
+          "h": 6
+        },
+        "value": 210.0,
+        "weight": 50.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 4
+        },
+        "value": 115.0,
+        "weight": 28.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 5
+        },
+        "value": 100.0,
+        "weight": 25.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 25,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-07",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 2,
+          "h": 3
+        },
+        "value": 75.0,
+        "weight": 18.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 7,
+          "y": 18,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-08",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 3
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 7,
+          "y": 5,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-09",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 70.0,
+        "weight": 15.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 4,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-10",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 6
+        },
+        "value": 190.0,
+        "weight": 48.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-11",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 2,
+          "h": 5
+        },
+        "value": 85.0,
+        "weight": 20.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 6,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-12",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 4,
+          "h": 5
+        },
+        "value": 175.0,
+        "weight": 42.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 13,
+          "y": 18,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-13",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 5
+        },
+        "value": 80.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 26,
+          "y": 17,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-14",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 3
+        },
+        "value": 120.0,
+        "weight": 27.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 7,
+          "y": 12,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-15",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 5
+        },
+        "value": 135.0,
+        "weight": 32.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 7,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-16",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 4
+        },
+        "value": 60.0,
+        "weight": 13.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 4,
+          "y": 14,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-17",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 7,
+          "l": 3,
+          "h": 6
+        },
+        "value": 165.0,
+        "weight": 38.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 23,
+          "y": 20,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-18",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 4
+        },
+        "value": 95.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-19",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 6
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-20",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 3,
+          "h": 4
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 8,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-21",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 4,
+          "h": 4
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 11,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-22",
+        "dimensions": {
+          "w": 5,
+          "l": 8,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 8,
+          "l": 5,
+          "h": 4
+        },
+        "value": 200.0,
+        "weight": 46.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-23",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 3
+        },
+        "value": 50.0,
+        "weight": 11.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 5,
+          "y": 8,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-24",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 4
+        },
+        "value": 155.0,
+        "weight": 36.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 11,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-25",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 5
+        },
+        "value": 160.0,
+        "weight": 37.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-26",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 2
+        },
+        "value": 95.0,
+        "weight": 22.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 26,
+          "y": 8,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-27",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 6
+        },
+        "value": 145.0,
+        "weight": 34.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 20,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-28",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 4
+        },
+        "value": 100.0,
+        "weight": 23.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 8,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-29",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 7
+        },
+        "value": 150.0,
+        "weight": 35.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 15,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-30",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 2
+        },
+        "value": 70.0,
+        "weight": 16.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 22,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-31",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 8
+        },
+        "value": 250.0,
+        "weight": 60.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-32",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 4
+        },
+        "value": 85.0,
+        "weight": 19.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 26,
+          "y": 14,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-33",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 2,
+          "h": 6
+        },
+        "value": 105.0,
+        "weight": 24.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-34",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 5
+        },
+        "value": 130.0,
+        "weight": 30.0,
+        "is_fragile": true,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 15,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-35",
+        "dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 7,
+          "h": 4
+        },
+        "value": 185.0,
+        "weight": 44.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-36",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 6
+        },
+        "value": 90.0,
+        "weight": 21.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 4,
+          "y": 11,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-37",
+        "dimensions": {
+          "w": 4,
+          "l": 8,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 8
+        },
+        "value": 140.0,
+        "weight": 33.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-38",
+        "dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 2
+        },
+        "value": 80.0,
+        "weight": 18.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 5,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-39",
+        "dimensions": {
+          "w": 6,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 6
+        },
+        "value": 170.0,
+        "weight": 40.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 11,
+          "y": 7,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-40",
+        "dimensions": {
+          "w": 3,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 3,
+          "h": 2
+        },
+        "value": 60.0,
+        "weight": 14.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 20,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-41",
+        "dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 6,
+          "h": 4
+        },
+        "value": 125.0,
+        "weight": 29.0,
+        "is_fragile": true,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 11,
+          "z": 0
+        },
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-42",
+        "dimensions": {
+          "w": 5,
+          "l": 7,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 5,
+          "h": 7
+        },
+        "value": 205.0,
+        "weight": 49.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 15,
+          "y": 10,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-43",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 4
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 3,
+          "h": 3
+        },
+        "value": 75.0,
+        "weight": 17.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 11,
+          "y": 13,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-44",
+        "dimensions": {
+          "w": 6,
+          "l": 8,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 3,
+          "h": 8
+        },
+        "value": 195.0,
+        "weight": 45.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-45",
+        "dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 4,
+          "l": 4,
+          "h": 5
+        },
+        "value": 110.0,
+        "weight": 26.0,
+        "is_fragile": true,
+        "eta": 1,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 0
+      },
+      {
+        "id": "PKG-46",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 5,
+          "h": 5
+        },
+        "value": 180.0,
+        "weight": 42.0,
+        "is_fragile": false,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 17,
+          "z": 0
+        },
+        "orientation_idx": 2
+      },
+      {
+        "id": "PKG-47",
+        "dimensions": {
+          "w": 3,
+          "l": 6,
+          "h": 5
+        },
+        "current_dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 3
+        },
+        "value": 120.0,
+        "weight": 28.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 7,
+          "y": 20,
+          "z": 0
+        },
+        "orientation_idx": 5
+      },
+      {
+        "id": "PKG-48",
+        "dimensions": {
+          "w": 4,
+          "l": 7,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 7
+        },
+        "value": 100.0,
+        "weight": 23.0,
+        "is_fragile": true,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 28,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 4
+      }
+    ]
+  },
+  "duration_seconds_unrounded": 6.912963151931763,
+  "score_history_unrounded": [
+    4285.0,
+    4285.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4290.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4295.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4300.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0,
+    4310.0
+  ],
+  "configuration": {
+    "run_id": "L-GA-G-P30-G100-01",
+    "algo": "ga",
+    "seed": 1,
+    "parameters": {
+      "pop_size": 30,
+      "generations": 100,
+      "crossover_rate": 0.9,
+      "mutation_rate": 0.1,
+      "elite": 2
+    },
+    "study": "GA-G",
+    "base_run_id": "GA-G-P30-G100-01",
+    "dataset": "large",
+    "run_dir": "large/L-GA-G-P30-G100-01"
+  },
+  "input_file": "test_cases\\large.json",
+  "objective": "default",
+  "dataset_sha256": "1383683897fb92796e28a25dad6a83ed6bb7fbef0082e91e2d5d726e9d5bea77",
+  "execution_time_utc": "2026-10-20T02:31:34.512087+00:00"
+}

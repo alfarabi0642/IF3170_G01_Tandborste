@@ -1,0 +1,646 @@
+{
+  "algorithm": "Genetic Algorithm",
+  "duration_seconds": 0.1278,
+  "iterations": 50,
+  "initial_score": 445.0,
+  "final_score": 445.0,
+  "loaded_packages_count": 5,
+  "unloaded_packages_count": 1,
+  "total_loaded_weight": 98.0,
+  "truck_capacity": 100.0,
+  "score_history": [
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0
+  ],
+  "iteration_history": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "extra_metrics": {
+    "pop_size": 60,
+    "generations": 50,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.1,
+    "elite": 2,
+    "max_fitness_history": [
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0,
+      445.0
+    ],
+    "avg_fitness_history": [
+      382.1666666666667,
+      391.4166666666667,
+      400.0,
+      410.75,
+      410.75,
+      410.9166666666667,
+      411.4166666666667,
+      414.6666666666667,
+      409.6666666666667,
+      407.5833333333333,
+      408.8333333333333,
+      411.0,
+      417.0833333333333,
+      416.1666666666667,
+      415.25,
+      421.5833333333333,
+      409.0833333333333,
+      403.1666666666667,
+      402.5833333333333,
+      400.9166666666667,
+      401.5,
+      407.9166666666667,
+      409.5,
+      412.9166666666667,
+      419.3333333333333,
+      413.6666666666667,
+      417.8333333333333,
+      415.4166666666667,
+      412.5833333333333,
+      414.25,
+      412.4166666666667,
+      416.1666666666667,
+      425.1666666666667,
+      415.75,
+      412.0833333333333,
+      420.0,
+      416.1666666666667,
+      413.6666666666667,
+      413.6666666666667,
+      414.1666666666667,
+      417.9166666666667,
+      412.0833333333333,
+      404.75,
+      403.3333333333333,
+      398.4166666666667,
+      407.25,
+      404.5833333333333,
+      404.3333333333333,
+      403.9166666666667,
+      405.75,
+      407.0
+    ],
+    "best_chromosome": [
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        1
+      ]
+    ]
+  },
+  "initial_state": {
+    "truck": {
+      "id": "MejiroTruck-01",
+      "dimensions": {
+        "w": 10,
+        "l": 20,
+        "h": 5
+      },
+      "max_capacity": 100.0
+    },
+    "score": 445.0,
+    "is_valid": true,
+    "total_weight": 98.0,
+    "loaded_count": 5,
+    "unloaded_count": 1,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 1
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 1,
+          "h": 4
+        },
+        "value": 60.0,
+        "weight": 12.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 5
+        },
+        "value": 110.0,
+        "weight": 25.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 6,
+          "y": 2,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 2,
+          "h": 2
+        },
+        "value": 45.0,
+        "weight": 8.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 6,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 2,
+          "h": 5
+        },
+        "value": 150.0,
+        "weight": 35.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 80.0,
+        "weight": 18.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 1
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 1,
+          "h": 4
+        },
+        "value": 40.0,
+        "weight": 10.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      }
+    ]
+  },
+  "final_state": {
+    "truck": {
+      "id": "MejiroTruck-01",
+      "dimensions": {
+        "w": 10,
+        "l": 20,
+        "h": 5
+      },
+      "max_capacity": 100.0
+    },
+    "score": 445.0,
+    "is_valid": true,
+    "total_weight": 98.0,
+    "loaded_count": 5,
+    "unloaded_count": 1,
+    "packages": [
+      {
+        "id": "PKG-01",
+        "dimensions": {
+          "w": 3,
+          "l": 4,
+          "h": 1
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 1,
+          "h": 4
+        },
+        "value": 60.0,
+        "weight": 12.0,
+        "is_fragile": false,
+        "eta": 3,
+        "is_loaded": true,
+        "position": {
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 1
+      },
+      {
+        "id": "PKG-02",
+        "dimensions": {
+          "w": 4,
+          "l": 5,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 5
+        },
+        "value": 110.0,
+        "weight": 25.0,
+        "is_fragile": true,
+        "eta": 2,
+        "is_loaded": true,
+        "position": {
+          "x": 6,
+          "y": 2,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-03",
+        "dimensions": {
+          "w": 2,
+          "l": 3,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 2,
+          "h": 2
+        },
+        "value": 45.0,
+        "weight": 8.0,
+        "is_fragile": false,
+        "eta": 5,
+        "is_loaded": true,
+        "position": {
+          "x": 6,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-04",
+        "dimensions": {
+          "w": 5,
+          "l": 6,
+          "h": 2
+        },
+        "current_dimensions": {
+          "w": 6,
+          "l": 2,
+          "h": 5
+        },
+        "value": 150.0,
+        "weight": 35.0,
+        "is_fragile": false,
+        "eta": 1,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 0
+        },
+        "orientation_idx": 3
+      },
+      {
+        "id": "PKG-05",
+        "dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "current_dimensions": {
+          "w": 3,
+          "l": 3,
+          "h": 3
+        },
+        "value": 80.0,
+        "weight": 18.0,
+        "is_fragile": true,
+        "eta": 4,
+        "is_loaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation_idx": 4
+      },
+      {
+        "id": "PKG-06",
+        "dimensions": {
+          "w": 2,
+          "l": 4,
+          "h": 1
+        },
+        "current_dimensions": {
+          "w": 2,
+          "l": 1,
+          "h": 4
+        },
+        "value": 40.0,
+        "weight": 10.0,
+        "is_fragile": false,
+        "eta": 2,
+        "is_loaded": false,
+        "position": null,
+        "orientation_idx": 1
+      }
+    ]
+  },
+  "duration_seconds_unrounded": 0.12781834602355957,
+  "score_history_unrounded": [
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0,
+    445.0
+  ],
+  "configuration": {
+    "run_id": "S-GA-P-P60-G50-01",
+    "algo": "ga",
+    "seed": 1,
+    "parameters": {
+      "pop_size": 60,
+      "generations": 50,
+      "crossover_rate": 0.9,
+      "mutation_rate": 0.1,
+      "elite": 2
+    },
+    "study": "GA-P",
+    "base_run_id": "GA-P-P60-G50-01",
+    "dataset": "small",
+    "run_dir": "small/S-GA-P-P60-G50-01"
+  },
+  "input_file": "test_cases\\small.json",
+  "objective": "default",
+  "dataset_sha256": "74fa74d7276ddf219cdc0a03f10ae4bf53e90e7d2396d2506c6f1cd149b7ff59",
+  "execution_time_utc": "2026-10-20T02:22:30.168365+00:00"
+}

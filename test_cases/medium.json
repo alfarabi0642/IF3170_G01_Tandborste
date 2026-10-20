@@ -1,0 +1,205 @@
+{
+  "truck": {
+    "id": "MejiroTruck-Medium",
+    "dimensions": {
+      "w": 20,
+      "l": 40,
+      "h": 10
+    },
+    "max_capacity": 400.0
+  },
+  "packages": [
+    {
+      "id": "PKG-01",
+      "dimensions": {"w": 4, "l": 5, "h": 3},
+      "value": 90.0,
+      "weight": 22.0,
+      "is_fragile": false,
+      "eta": 2
+    },
+    {
+      "id": "PKG-02",
+      "dimensions": {"w": 5, "l": 6, "h": 4},
+      "value": 140.0,
+      "weight": 35.0,
+      "is_fragile": true,
+      "eta": 1
+    },
+    {
+      "id": "PKG-03",
+      "dimensions": {"w": 3, "l": 4, "h": 2},
+      "value": 65.0,
+      "weight": 14.0,
+      "is_fragile": false,
+      "eta": 4
+    },
+    {
+      "id": "PKG-04",
+      "dimensions": {"w": 6, "l": 8, "h": 4},
+      "value": 210.0,
+      "weight": 50.0,
+      "is_fragile": false,
+      "eta": 3
+    },
+    {
+      "id": "PKG-05",
+      "dimensions": {"w": 4, "l": 4, "h": 4},
+      "value": 115.0,
+      "weight": 28.0,
+      "is_fragile": true,
+      "eta": 2
+    },
+    {
+      "id": "PKG-06",
+      "dimensions": {"w": 5, "l": 5, "h": 3},
+      "value": 100.0,
+      "weight": 25.0,
+      "is_fragile": false,
+      "eta": 5
+    },
+    {
+      "id": "PKG-07",
+      "dimensions": {"w": 3, "l": 6, "h": 2},
+      "value": 75.0,
+      "weight": 18.0,
+      "is_fragile": false,
+      "eta": 1
+    },
+    {
+      "id": "PKG-08",
+      "dimensions": {"w": 4, "l": 7, "h": 3},
+      "value": 130.0,
+      "weight": 30.0,
+      "is_fragile": false,
+      "eta": 3
+    },
+    {
+      "id": "PKG-09",
+      "dimensions": {"w": 3, "l": 3, "h": 3},
+      "value": 70.0,
+      "weight": 15.0,
+      "is_fragile": true,
+      "eta": 4
+    },
+    {
+      "id": "PKG-10",
+      "dimensions": {"w": 6, "l": 6, "h": 5},
+      "value": 190.0,
+      "weight": 48.0,
+      "is_fragile": false,
+      "eta": 2
+    },
+    {
+      "id": "PKG-11",
+      "dimensions": {"w": 4, "l": 5, "h": 2},
+      "value": 85.0,
+      "weight": 20.0,
+      "is_fragile": false,
+      "eta": 3
+    },
+    {
+      "id": "PKG-12",
+      "dimensions": {"w": 5, "l": 7, "h": 4},
+      "value": 175.0,
+      "weight": 42.0,
+      "is_fragile": true,
+      "eta": 1
+    },
+    {
+      "id": "PKG-13",
+      "dimensions": {"w": 3, "l": 5, "h": 3},
+      "value": 80.0,
+      "weight": 19.0,
+      "is_fragile": false,
+      "eta": 4
+    },
+    {
+      "id": "PKG-14",
+      "dimensions": {"w": 4, "l": 6, "h": 3},
+      "value": 120.0,
+      "weight": 27.0,
+      "is_fragile": false,
+      "eta": 2
+    },
+    {
+      "id": "PKG-15",
+      "dimensions": {"w": 5, "l": 5, "h": 4},
+      "value": 135.0,
+      "weight": 32.0,
+      "is_fragile": false,
+      "eta": 5
+    },
+    {
+      "id": "PKG-16",
+      "dimensions": {"w": 3, "l": 4, "h": 3},
+      "value": 60.0,
+      "weight": 13.0,
+      "is_fragile": true,
+      "eta": 3
+    },
+    {
+      "id": "PKG-17",
+      "dimensions": {"w": 6, "l": 7, "h": 3},
+      "value": 165.0,
+      "weight": 38.0,
+      "is_fragile": false,
+      "eta": 1
+    },
+    {
+      "id": "PKG-18",
+      "dimensions": {"w": 4, "l": 4, "h": 3},
+      "value": 95.0,
+      "weight": 21.0,
+      "is_fragile": false,
+      "eta": 4
+    },
+    {
+      "id": "PKG-19",
+      "dimensions": {"w": 5, "l": 6, "h": 3},
+      "value": 125.0,
+      "weight": 29.0,
+      "is_fragile": false,
+      "eta": 2
+    },
+    {
+      "id": "PKG-20",
+      "dimensions": {"w": 3, "l": 6, "h": 4},
+      "value": 110.0,
+      "weight": 26.0,
+      "is_fragile": true,
+      "eta": 3
+    },
+    {
+      "id": "PKG-21",
+      "dimensions": {"w": 4, "l": 5, "h": 4},
+      "value": 105.0,
+      "weight": 24.0,
+      "is_fragile": false,
+      "eta": 5
+    },
+    {
+      "id": "PKG-22",
+      "dimensions": {"w": 5, "l": 8, "h": 4},
+      "value": 200.0,
+      "weight": 46.0,
+      "is_fragile": false,
+      "eta": 1
+    },
+    {
+      "id": "PKG-23",
+      "dimensions": {"w": 3, "l": 3, "h": 2},
+      "value": 50.0,
+      "weight": 11.0,
+      "is_fragile": false,
+      "eta": 4
+    },
+    {
+      "id": "PKG-24",
+      "dimensions": {"w": 4, "l": 7, "h": 4},
+      "value": 155.0,
+      "weight": 36.0,
+      "is_fragile": true,
+      "eta": 2
+    }
+  ]
+}
