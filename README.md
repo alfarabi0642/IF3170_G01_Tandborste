@@ -55,7 +55,7 @@ Semua flag bersifat opsional. Flag visualisasi digunakan tanpa nilai; flag lainn
 | `-a`, `--algo` | `steepest` | Pilihan algoritma pada tabel berikut. |
 | `--objective` | `default` | `default`: total nilai paket; `bonus`: urgensi ETA dan rasio volume. |
 | `--seed` | Tidak ditentukan | Seed bilangan acak berupa integer. |
-| `-o`, `--output-dir` | `output` | Folder hasil eksekusi. |
+| `-o`, `--output-dir` | `output` | Folder induk untuk subfolder setiap run. |
 | `--plot` | Nonaktif | Buka visualisasi 3D di browser. |
 | `--save-plot` | Nonaktif | Simpan visualisasi 3D sebagai HTML. |
 | `--save-metrics` | Nonaktif | Simpan grafik metrik sebagai PNG. |
@@ -86,7 +86,7 @@ python main.py --algo ga --pop-size 30 --generations 50
 
 ## Hasil Program
 
-Hasil pencarian otomatis disimpan sebagai JSON di `output/`. Opsi `--save-plot` menyimpan visualisasi 3D sebagai HTML, sedangkan `--save-metrics` menyimpan grafik metrik sebagai PNG. Gunakan `--output-dir <folder>` untuk mengganti lokasi penyimpanan.
+Setiap run membuat subfolder `output/<algoritma>_<YYYYMMDD_HHMMSS_mikrodetik>/` untuk menyimpan seluruh hasilnya. Hasil pencarian otomatis disimpan sebagai JSON. Opsi `--save-plot` menyimpan visualisasi 3D sebagai HTML, sedangkan `--save-metrics` menyimpan grafik metrik sebagai PNG. Gunakan `--output-dir <folder>` untuk mengganti folder induk.
 
 ## Pembagian Tugas
 
